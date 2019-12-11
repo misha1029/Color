@@ -1,0 +1,35 @@
+:root{
+    background-color: rgba(54,100,70,0.4);
+}
+
+label{
+    display: flex;
+
+}
+
+label > input{
+    flex: 1;
+}
+
+label > span{
+    flex: 0.2;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.inputWrapper{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    min-width: 320px;
+    border: 40px solid black;
+
+
+}
